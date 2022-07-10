@@ -1,2 +1,107 @@
-/* колір основного тексту */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    background: #FFFFFF;
+    color:#212121;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-header {
+   color: #000000; 
+}
+
+.logo-footer {
+   color: #FFFFFF;
+}
+
+/* -------------------шапка------------------ */
+
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.phone-number,
+.mail {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+     color: #757575;    
+}
+
+
+.phone-number:hover,
+.phone-number:focus {
+    color: #2196F3;
+}
+
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+
+/* --------------------------кнопка-------------*/
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+     color: #FFFFFF;
+}
+
+.header-main {
+    background: #2F303A;
+}
+
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #2F303A;
+}
+
+
+/* -------------------чим займаємось------------ */
 
