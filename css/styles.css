@@ -1,3 +1,12 @@
+:root {
+    --primary-font: 'Roboto',
+        sans-serif;
+    --secondary-font: 'Raleway',
+        sans-serif;
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 .list {
     list-style: none;
 }
@@ -7,18 +16,20 @@
 }
 
 body {
-    background: #FFFFFF;
-    color:#212121;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--primary-text-color);
 }
 
+
+/* ------------- logo ------------------ */
+
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-header {
@@ -27,49 +38,55 @@ body {
 
 .logo-footer {
    color: #FFFFFF;
+
+
+
 }
 
-/* -------------------шапка------------------ */
+/* ---------------- header ------------------ */
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .phone-number,
 .mail {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-     color: #757575;    
+    letter-spacing: 0.02em;  
+}
+
+.contacts-theme-dark {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-theme-light {
+    color: #757575;
 }
 
 
 .phone-number:hover,
 .phone-number:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .mail:hover,
 .mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
-/* --------------------------кнопка-------------*/
-.header-title {
-    font-family: 'Roboto', sans-serif;
+/* ------------------ hero -------------*/
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -79,13 +96,11 @@ body {
      color: #FFFFFF;
 }
 
-.header-main {
+.hero {
     background: #2F303A;
 }
 
 .modal-btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -94,7 +109,7 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color);
 }
 
 .modal-btn:hover,
@@ -103,5 +118,94 @@ body {
 }
 
 
-/* -------------------чим займаємось------------ */
+/* ----------------- content ----------- */
 
+.content-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.content-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.section-heading {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ------------- team ------------ */
+
+.team-name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    
+/* ------------ footer ------------ */
+
+.footer {
+    background: #2F303A;
+}
+
+.street-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+ 
+.street-address:hover,
+.street-address:focus {
+    color: var(--accent-color);
+}
+/* ---------------- portfolio ------------- */
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    }
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;;
+    background: var(--accent-color);
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
